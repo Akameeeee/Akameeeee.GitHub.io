@@ -28,8 +28,8 @@ h1, h2, h3, h4, h5, h6 {
    
 }
 .intro__inner {
-  position: absolute;
-  z-index: 1;
+  
+  
   
   filter: blur(10px);
   width: 100%;
