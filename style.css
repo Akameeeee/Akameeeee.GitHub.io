@@ -29,6 +29,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px); 
+  height: 100vh;
 }
 .intro__title {
   padding: 80px;
