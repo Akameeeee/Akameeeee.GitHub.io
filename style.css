@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* stili dlya intro*/
 .intro {
+  filter: blur(10px);
   background: url("intro.jpg") center
   no-repeat;
   background-size : cover;
@@ -27,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
    
 }
 .intro__inner {
-filter: blur(10px);
+
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
@@ -42,7 +43,7 @@ filter: blur(10px);
   text-transform: uppercase;
   text-align: center;
   
-  z-index: 2;
+  
 
 }
 /*Header*/
