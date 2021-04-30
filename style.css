@@ -24,11 +24,13 @@ h1, h2, h3, h4, h5, h6 {
   background: url("intro.jpg") center
   no-repeat;
   background-size : cover;
+   
 }
 .intro__inner {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
+ 
 }
 .intro__title {
   padding: 80px;
