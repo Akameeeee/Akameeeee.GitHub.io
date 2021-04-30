@@ -24,13 +24,15 @@ h1, h2, h3, h4, h5, h6 {
   background: url("intro.jpg") center
   no-repeat;
   background-size : cover;
+   position: absolute;
+  z-index: 1;
    
 }
 .intro__inner {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  position: absolute;
+  
   
  
 }
@@ -40,6 +42,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
+  position: relative;
+  z-index: 2;
 
 }
 /*Header*/
