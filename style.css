@@ -19,19 +19,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* stili dlya intro*/
 .intro {
- 
-   
   background: url("intro.jpg") center
   no-repeat;
   background-size : cover;
+  filter: blur(10px);
  
    
 }
 .intro__inner {
-  
-  
-  
-  filter: blur(10px);
+
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
