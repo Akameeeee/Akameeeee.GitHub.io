@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 /* stili dlya intro*/
 .intro {
   filter: blur(10px);
+  z-index: -1;
   background: url("intro.jpg") center
   no-repeat;
   background-size : cover;
